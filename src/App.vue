@@ -81,4 +81,5 @@ body {
     left: 0;
   }
 }
+$color: #ea9a55;
 </style>

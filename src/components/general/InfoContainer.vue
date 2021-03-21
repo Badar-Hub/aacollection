@@ -32,7 +32,7 @@ export default defineComponent({
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
 }
 .word-details {
-  background-color: #d9bba1;
+  background-color: #ea9a55;
   color: white;
 }
 </style>
