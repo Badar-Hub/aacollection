@@ -1,5 +1,5 @@
 <template>
-  <div class="q-my-xl">
+  <div class="wrapper q-my-xl">
     <div class="row info-container" :class="work ? '' : 'q-py-sm q-px-lg'">
       <slot></slot>
     </div>

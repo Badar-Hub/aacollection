@@ -30,9 +30,17 @@ export default defineComponent({});
 .header-main {
   background-color: #d9bba1;
 }
+nav ul li a {
+  @media (max-width: 597px) {
+    padding: 0px;
+  }
+}
 .logo {
   a {
     font-size: 25px;
+  }
+  @media (max-width: 597px) {
+    margin: auto;
   }
 }
 header {

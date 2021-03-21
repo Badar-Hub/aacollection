@@ -69,7 +69,7 @@
     </div>
     <div class="row max-width-center q-pt-lg">
       <div class="col-12 text-center">
-        <h4 class="q-my-sm info-bold">Afshan Faisal</h4>
+        <h4 class="q-my-sm info-bold">AA Collection</h4>
       </div>
       <div class="col-12 text-center">
         <h6 class="q-my-xs ">Kiitos vierailustasi!</h6>
