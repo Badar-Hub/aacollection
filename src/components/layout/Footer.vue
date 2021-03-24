@@ -7,19 +7,19 @@
         <div class="col-12 text-center">
           <strong>
             <h6 class="q-mt-xs q-mb-xl info-bold">
-              Ota yhteyttä minuun
+              Contact Me
             </h6></strong
           >
         </div>
         <div class="col col-5">
-          <strong><p>Ota rohkeasti yhteyttä minuun</p></strong>
+          <strong><p>Feel free to contact me</p></strong>
           <q-input
             rounded
             outlined
             dense
             class="q-my-md"
             v-model="text"
-            label="Nimi"
+            label="Name"
           />
           <q-input
             rounded
@@ -27,7 +27,7 @@
             class="q-my-md"
             outlined
             v-model="text"
-            label="Aihe"
+            label="Subject"
           />
           <q-input
             rounded
@@ -39,28 +39,28 @@
           />
           <q-input
             class="q-my-md"
-            label="Viestisi"
+            label="Your Message"
             v-model="text"
             filled
             type="textarea"
           />
-          <q-btn class="q-my-md" type="submit" label="Lähetä" color="primary" />
+          <q-btn class="q-my-md" type="submit" label="Submit" color="primary" />
         </div>
         <div
           class="col col-5
         "
         >
-          <strong><p>OSOITE</p></strong>
+          <strong><p>Address</p></strong>
           <p>
-            Kaikukatu 82 as 2, 70600, kuopio, Finland
+            Bahria Town Phase 7, Rawalpindi, Pakistan
           </p>
-          <strong><p>PUHELIN</p></strong>
+          <strong><p>Phone</p></strong>
           <p>
-            +358 41 3157488
+            +92 332 1021700
           </p>
           <strong><p>Email</p></strong>
           <p>
-            afshan1790@gmail.com
+            bapk65@gmail.com
           </p>
         </div>
       </div>
@@ -69,10 +69,10 @@
     </div>
     <div class="row max-width-center q-pt-lg">
       <div class="col-12 text-center">
-        <h4 class="q-my-sm info-bold">AA Collection</h4>
+        <h4 class="q-my-sm info-bold">Badar Abdullah</h4>
       </div>
       <div class="col-12 text-center">
-        <h6 class="q-my-xs ">Kiitos vierailustasi!</h6>
+        <h6 class="q-my-xs ">Thanks for visiting me!</h6>
       </div>
     </div>
   </div>

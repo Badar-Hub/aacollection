@@ -3,16 +3,16 @@
     <header>
       <div class="row justify-between">
         <div class="logo q-my-auto">
-          <router-link to="/">AA COLLECTION</router-link>
+          <router-link to="/">Badar Abdullah</router-link>
         </div>
         <nav class="q-my-auto">
           <ul>
-            <router-link to="#home">Koti</router-link>
-            <router-link to="#about">Noin</router-link>
-            <router-link to="#skills">Taidot</router-link>
-            <router-link to="#experience">Kokea</router-link>
-            <router-link to="#portfolio">Salkku</router-link>
-            <router-link to="#contact">Ottaa yhteyttä </router-link>
+            <router-link to="#home">Home</router-link>
+            <router-link to="#about">About</router-link>
+            <router-link to="#skills">Skiils</router-link>
+            <router-link to="#experience">Experience</router-link>
+            <router-link to="#portfolio">Education</router-link>
+            <router-link to="#contact">Contact Us </router-link>
           </ul>
         </nav>
       </div>
@@ -28,7 +28,7 @@ export default defineComponent({});
 
 <style lang="scss">
 .header-main {
-  background-color: #ea9a55;
+  background-color: #000000;
 }
 nav ul li a {
   @media (max-width: 597px) {
@@ -50,7 +50,7 @@ header {
   max-width: 1200px;
   width: 100%;
   padding: 5px;
-  background-color: #ea9a55;
+  background-color: #000000;
   a {
     padding-right: 20px;
     font-size: 18px;

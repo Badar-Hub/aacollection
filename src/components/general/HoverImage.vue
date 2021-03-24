@@ -2,32 +2,32 @@
   <div class="row justify-evenly">
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/02.jpg"
+        :src="require(`@/assets/images/Category/${img1}`)"
         class="image"
         style="width:100%"
       />
       <div class="middle">
-        <div class="text">Makrame Work</div>
+        <div class="text">{{ txt1 }}</div>
       </div>
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/03.png"
+        :src="require(`@/assets/images/Category/${img2}`)"
         class="image"
         style="width:100%"
       />
       <div class="middle">
-        <div class="text">Dress Design</div>
+        <div class="text">{{ txt2 }}</div>
       </div>
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/04.png"
+        :src="require(`@/assets/images/Category/${img3}`)"
         class="image"
         style="width:100%"
       />
       <div class="middle">
-        <div class="text">Henna Design</div>
+        <div class="text">{{ txt3 }}</div>
       </div>
     </div>
   </div>
@@ -36,7 +36,28 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-export default defineComponent({});
+export default defineComponent({
+  props: {
+    img1: {
+      type: String,
+    },
+    img2: {
+      type: String,
+    },
+    img3: {
+      type: String,
+    },
+    txt1: {
+      type: String,
+    },
+    txt2: {
+      type: String,
+    },
+    txt3: {
+      type: String,
+    },
+  },
+});
 </script>
 
 <style scoped>

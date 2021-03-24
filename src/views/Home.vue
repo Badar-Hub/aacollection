@@ -11,25 +11,27 @@
     <InfoContainer id="about">
       <div id="slide" class="col col-xs-12 col-sm-6">
         <h5 class="q-my-md info-semi-bold">
-          Noin
+          About
         </h5>
         <h6 class="q-my-sm basic-info-font">
-          Hei, olen Afshan Faisal, ammattimainen pukeutumissuunnittelija<br /><br />
-          lahjakas ja asiakaslähtöinen suunnittelija, jolla on silmäys
-          kaupalliseen muotiin ja yksityiskohtiin tuotteiden muotoilussa, yli 8
-          vuoden kokemus.
+          Hello! I am Badar Abdullah. Software & Web Developer. I'm an
+          achievement-oriented person with solid background of overseeing system
+          architecture, defining goals and managing project progress with both
+          local and remote teams. Organized and systematic team player with
+          development experience in Agile development environments and Scrum
+          methodology. Learn More
         </h6>
       </div>
       <div id="slide" class="col col-xs-12 col-sm-6">
-        <h5 class="q-my-md info-semi-bold">Perustiedot</h5>
+        <h5 class="q-my-md info-semi-bold">Basic Information</h5>
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              IKÄ:
+              Age:
             </p>
           </div>
           <div class="col-9">
-            <p class="q-ma-xs basic-info-font">31</p>
+            <p class="q-ma-xs basic-info-font">22</p>
           </div>
         </div>
         <div class="row">
@@ -39,261 +41,239 @@
             </p>
           </div>
           <div class="col-9">
-            <p class="q-ma-xs basic-info-font">afshan1790@gmail.com</p>
+            <p class="q-ma-xs basic-info-font">bapk65@gmail.com</p>
           </div>
         </div>
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              PUHELIN:
+              Phone:
             </p>
           </div>
           <div class="col-9">
-            <p class="q-ma-xs basic-info-font">+358 41 3157488</p>
+            <p class="q-ma-xs basic-info-font">+92 332 1021700</p>
           </div>
         </div>
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              OSOITE:
-            </p>
-          </div>
-          <div class="col-9">
-            <p class="q-ma-xs basic-info-font">
-              Kaikukatu 82 as 2, 70600, kuopio
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-3">
-            <p class="q-ma-xs info-bold basic-info-font">
-              KIELI:
+              Address:
             </p>
           </div>
           <div class="col-9">
             <p class="q-ma-xs basic-info-font">
-              Englanti, Urdu, Punjabi, Suomalainen
+              Bahria Town Phase 7, Rawalpindi
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <p class="q-ma-xs info-bold basic-info-font">
+              Languages:
+            </p>
+          </div>
+          <div class="col-9">
+            <p class="q-ma-xs basic-info-font">
+              English, Urdu, Arabic
             </p>
           </div>
         </div>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">Ammattitaito</h5>
+    <h5 id="skills" class="text-center info-semi-bold">Skills</h5>
     <InfoContainer>
       <div class="col col-xs-4">
         <div class="q-px-sm">
           <li>
-            Suunnittelu ja käsitteelliset taidot
+            VueJS
           </li>
-          <li>Erinomainen tyyli- ja väritaju</li>
+          <li>CSS, SCSS</li>
           <li>
-            Rakennustekniikat
+            Azure Devops
           </li>
         </div>
       </div>
       <div class="col col-xs-4">
         <div class="q-px-sm">
           <li>
-            Moniajo
+            HTML
           </li>
-          <li>Organisaatio</li>
+          <li>Javascript</li>
           <li>
-            Ajanhallinta
+            Node
           </li>
         </div>
       </div>
       <div class="col col-xs-4">
         <div class="q-px-sm">
           <li>
-            Luonnos
+            Express
           </li>
           <li>
-            Johtajuus
+            Rest API
           </li>
           <li>
-            Viestintä
-          </li>
-          <li>
-            Esitys
+            ASP.NET
           </li>
         </div>
       </div>
     </InfoContainer>
-    <h5 id="experience" class="text-center info-semi-bold">Työkokemus</h5>
+    <h5 id="experience" class="text-center info-semi-bold">Experience</h5>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            11-02-2020 - Jatkuu edelleen
+            2020-11 - Current
             <br />
             <strong>
-              Työharjoittelussa
+              Senior Vuejs Developer
               <br />
-              NY yritys
+              IPlex
             </strong>
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
+        <li>
+          Working on the Restaurant admin platform, implementing the latest
+          technologies i.e Vue 3, DI and best practices coming
+        </li>
+        <li>
+          From the SOLID principles, also working with integrating & upgrading
+          the current microservices based
+        </li>
+        <li>
+          Application, helping the community while solving bugs to improve the
+          overall quality and efficiency of the
+        </li>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2kk
+            2020-10 - Current
             <br />
             <strong>
-              Työharjoittelussa
+              Fullstack Developer
               <br />
-              Tukeva säätiö
+              Curaprox
             </strong>
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          As part of this experience, I'd the opportunity to dip my toes in the
+          world of big eCommerce by designing, developing, architecting
+          solutions for an admin portal in NodeJs and the storefront in VueJs.
+          Among many other takeaways, I managed to gain the first-hand
+          experience with the complex domain that is modern eCommerce and
+          deploying an application all while tackling all sorts of challenges.
         </p>
       </div>
     </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            1kk
-            <br />
-            <strong>
-              Työharjoittelussa
-              <br />
-              Alliina Iisalmessa Olen
-            </strong>
-          </h6>
-        </div>
-      </div>
-      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-    </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            2009 - 2016
-            <br />
-            <strong>
-              yrittäjänä
-              <br />
-              Pakistanissa
-            </strong>
-          </h6>
-        </div>
-      </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Olen ollut vaatetusalan yrittäjänä Pakistanissa. (2009_2016)
-        </p>
-      </div>
-    </InfoContainer>
-    <h5 id="portfolio" class="text-center info-semi-bold">salkun</h5>
-    <div class="row max-width-center q-my-sm ">
-      <img
-        class="category-header-image"
-        src="@/assets/images/Category/01.jpg"
-      />
-    </div>
-    <div class="row max-width-center">
-      <HoverImage />
-      <!-- <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/02.jpg" />
-      </div>
-      <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/03.png" />
-      </div>
-      <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/04.png" />
-      </div> -->
-    </div>
-    <h5 class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
             2018 - 2020
             <br />
-            Suomen kielen kurssi
+            <strong>
+              Wordpress Developer
+              <br />
+              Bilal Enterprises
+            </strong>
+          </h6>
+        </div>
+      </div>
+      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
+        <li>
+          Provided timely resolution to reported website problems by integrating
+          new solutions into existing platforms.
+        </li>
+        <li>
+          Installed required plugins and additional coding to fit final design
+          and functionality requirements.
+        </li>
+        <li>
+          Responded to and corrected issues preventing business or customer use
+          of site or features.
+        </li>
+        <li>
+          Collaborated with design and project developers to understand project
+          scope and offer elegant, creative and scalable solutions.
+        </li>
+        <li>
+          Delivered quality commercial websites that met coding standards and
+          cross-browser compatibilities.
+        </li>
+        <li>
+          Designed interfaces and graphics for presentations and
+          mobile-delivered applications to enhance content.
+        </li>
+        <li>
+          Converted design assets into component-based HTML, CSS and JavaScript.
+        </li>
+      </div>
+    </InfoContainer>
+
+    <h5 id="portfolio" class="text-center info-semi-bold">Portfolio</h5>
+
+    <div class="row max-width-center">
+      <HoverImage
+        img1="01.png"
+        txt1="Curaprox"
+        img2="02.png"
+        txt2="Buruj"
+        img3="03.png"
+        txt3="Wet N Wild"
+      />
+    </div>
+    <div class="row max-width-center">
+      <HoverImage
+        img1="04.png"
+        txt1="LA Girls"
+        img2="05.png"
+        txt2="AA Collection"
+        img3="06.png"
+        txt3="Bilal Enterprises"
+      />
+    </div>
+    <h5 class="text-center info-semi-bold">Education</h5>
+
+    <InfoContainer :work="true">
+      <div class="col col-xs-12 col-sm-4 word-details text-center">
+        <div class="word-details">
+          <h6>
+            2016 - 2018
+            <br />
+            Intermediate
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Suomen kielen kurssi</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+        <h5 class="q-my-sm">Intermediate</h5>
+        <strong
+          ><p>Pakistan International School, Jeddah, Saudia Arabia</p></strong
+        >
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2008 - 2010
+            2014 -2016
             <br />
-            Valmistuminen
+            Matric
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Valmistuminen</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
-      </div>
-    </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            2006 - 2008
-            <br />
-            Välituote
-          </h6>
-        </div>
-      </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Välituote</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
-      </div>
-    </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            2006
-            <br />
-            ylioppilas
-          </h6>
-        </div>
-      </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">ylioppilas</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+        <h5 class="q-my-sm">Matric</h5>
+        <strong
+          ><p>Pakistan International School, Jeddah, Saudia Arabia</p></strong
+        >
       </div>
     </InfoContainer>
   </div>
