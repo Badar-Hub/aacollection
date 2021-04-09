@@ -12,9 +12,9 @@ export default defineComponent({
   props: {
     work: {
       type: Boolean,
-      default: false,
-    },
-  },
+      default: false
+    }
+  }
 });
 </script>
 
@@ -32,7 +32,7 @@ export default defineComponent({
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
 }
 .word-details {
-  background-color: #ea9a55;
+  background-color: #213a35;
   color: white;
 }
 </style>

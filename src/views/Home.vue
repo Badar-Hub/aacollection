@@ -78,11 +78,11 @@
     <h5 id="skills" class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer>
       <div class="col">
-        <h5>Ylioppilas</h5>
+        <h5><strong>Ylioppilas</strong></h5>
         <li>General Science, Compouter Science (2002 - 2004)</li>
       </div>
       <div class="col">
-        <h5>Ammattilainen Koulutus</h5>
+        <h5><strong>Ammattilainen Koulutus</strong></h5>
         <p>
           Oppilaitos: Govt. Vacational training instituate for women (2004 -
           2006)
