@@ -164,15 +164,18 @@
     </h5>
     <InfoContainer>
       <div class="col">
-        <li>Perinteinen pakistanilainen ruoanlaitto</li>
-        <li>hennatatuointi</li>
+        <div class="q-mx-auto">
+          <li>Perinteinen pakistanilainen ruoanlaitto</li>
+          <li>hennatatuointi</li>
+        </div>
       </div>
       <div class="col">
-        <li>Ahkeruus ja tunnollisuus</li>
-        <li>Positiivisuus ja idearikkaus</li>
+        <div class="q-mx-auto">
+          <li>Ahkeruus ja tunnollisuus</li>
+          <li>Positiivisuus ja idearikkaus</li>
+        </div>
       </div>
     </InfoContainer>
-    <h5 id="portfolio" class="text-center info-semi-bold">salkun</h5>
     <div class="row max-width-center q-my-sm ">
       <img
         class="category-header-image"
@@ -191,41 +194,50 @@
         <img class="categories-img" src="@/assets/images/Category/04.png" />
       </div> -->
     </div>
-    <h5 class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            2018 - 2020
-            <br />
-            Suomen kielen kurssi
+      <div
+        class="col col-xs-12 col-sm-4 justify-center word-details text-center"
+      >
+        <div class="word-details q-ma-auto">
+          <h6 class="q-ma-auto">
+            Kielitaito
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Suomen kielen kurssi</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
+        <h5 class="q-my-sm">Urdu: äidinkieli</h5>
+        <h5 class="q-my-sm">Englanti: erinomainen</h5>
+        <h5 class="q-my-sm">Punjabi: erinomainen</h5>
+        <h5 class="q-my-sm">Suomi: hyvä</h5>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2008 - 2010
-            <br />
-            Valmistuminen
+            IT-Taidot
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Valmistuminen</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+      <div class="col col-xs-12 col-sm-8 q-px-xl">
+        <div class="row">
+          <div class="col-4">
+            <h5 class="q-my-sm">Microsoft office:</h5>
+            <li>Word: erinomainen</li>
+            <li>PowerPoint: hyvä</li>
+            <li>Excell: perusteet</li>
+          </div>
+          <div class="col-4">
+            <h5 class="q-my-sm">Sähköposti: hyvä</h5>
+            <h5 class="q-my-sm">Moodle: hyvä</h5>
+          </div>
+          <div class="col-4">
+            <h5 class="q-my-sm">Sosiaalinen media</h5>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Pinterest</li>
+          </div>
+        </div>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
