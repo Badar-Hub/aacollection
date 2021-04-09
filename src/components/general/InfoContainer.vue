@@ -34,6 +34,11 @@ export default defineComponent({
     font-size: 22px;
   }
 }
+.languages {
+  h5 {
+    font-size: 18px !important;
+  }
+}
 .word-details {
   background-color: #213a35;
   color: white;

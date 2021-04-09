@@ -194,13 +194,15 @@
         <img class="categories-img" src="@/assets/images/Category/04.png" />
       </div> -->
     </div>
-    <InfoContainer :work="true">
+    <InfoContainer class="languages" :work="true">
       <div
         class="col col-xs-12 col-sm-4 justify-center word-details text-center"
       >
         <div class="word-details q-ma-auto">
           <h6 class="q-ma-auto">
-            Kielitaito
+            <strong>
+              Kielitaito
+            </strong>
           </h6>
         </div>
       </div>
@@ -211,11 +213,13 @@
         <h5 class="q-my-sm">Suomi: hyvä</h5>
       </div>
     </InfoContainer>
-    <InfoContainer :work="true">
+    <InfoContainer class="languages" :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            IT-Taidot
+            <strong>
+              IT-Taidot
+            </strong>
           </h6>
         </div>
       </div>
@@ -228,8 +232,10 @@
             <li>Excell: perusteet</li>
           </div>
           <div class="col-4">
-            <h5 class="q-my-sm">Sähköposti: hyvä</h5>
-            <h5 class="q-my-sm">Moodle: hyvä</h5>
+            <div class="q-my-auto">
+              <h5 class="q-my-sm">Sähköposti: hyvä</h5>
+              <h5 class="q-my-sm">Moodle: hyvä</h5>
+            </div>
           </div>
           <div class="col-4">
             <h5 class="q-my-sm">Sosiaalinen media</h5>
@@ -240,40 +246,25 @@
         </div>
       </div>
     </InfoContainer>
-    <InfoContainer :work="true">
+    <InfoContainer class="languages" :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2006 - 2008
-            <br />
-            Välituote
+            <strong>Harrastukset </strong>
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Välituote</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+        <h5 class="q-my-sm">Lukeminen</h5>
+        <h5 class="q-my-sm">Runous</h5>
+        <h5 class="q-my-sm">Ulkoilu</h5>
+        <h5 class="q-my-sm">Kirjonta</h5>
       </div>
     </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            2006
-            <br />
-            ylioppilas
-          </h6>
-        </div>
-      </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">ylioppilas</h5>
-        <strong><p>Vocational College For Women</p></strong>
-        <p>
-          Suoritin valmistumiseni tekstiili- ja muotisuunnittelusta Pakistanissa
-        </p>
+    <h5 id="skills" class="text-center info-semi-bold">Työtavoite</h5>
+    <InfoContainer>
+      <div class="col text-center">
+        <h5>Haluan perustaa oman yrityksen Suomeen.</h5>
       </div>
     </InfoContainer>
   </div>
