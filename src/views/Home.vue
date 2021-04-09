@@ -13,19 +13,13 @@
         <h5 class="q-my-md info-semi-bold">
           Noin
         </h5>
-        <h6 class="q-my-sm basic-info-font">
-          Hei, olen Afshan Faisal, ammattimainen pukeutumissuunnittelija<br /><br />
-          lahjakas ja asiakaslähtöinen suunnittelija, jolla on silmäys
-          kaupalliseen muotiin ja yksityiskohtiin tuotteiden muotoilussa, yli 8
-          vuoden kokemus.
-        </h6>
       </div>
       <div id="slide" class="col col-xs-12 col-sm-6">
-        <h5 class="q-my-md info-semi-bold">Perustiedot</h5>
+        <h5 class="q-my-md info-semi-bold">Henkilötiedot</h5>
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              IKÄ:
+              NIMI:
             </p>
           </div>
           <div class="col-9">
@@ -35,17 +29,7 @@
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              EMAIL:
-            </p>
-          </div>
-          <div class="col-9">
-            <p class="q-ma-xs basic-info-font">afshan1790@gmail.com</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-3">
-            <p class="q-ma-xs info-bold basic-info-font">
-              PUHELIN:
+              PUH:
             </p>
           </div>
           <div class="col-9">
@@ -66,13 +50,26 @@
         </div>
         <div class="row">
           <div class="col-3">
+            <p
+              style="text-transform:uppercase"
+              class="q-ma-xs info-bold basic-info-font"
+            >
+              Sähköposti:
+            </p>
+          </div>
+          <div class="col-9">
+            <p class="q-ma-xs basic-info-font">afshan1790@gmail.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
-              KIELI:
+              SYNT:
             </p>
           </div>
           <div class="col-9">
             <p class="q-ma-xs basic-info-font">
-              Englanti, Urdu, Punjabi, Suomalainen
+              30-01-1989
             </p>
           </div>
         </div>
@@ -309,8 +306,8 @@ export default defineComponent({
   components: {
     Slider,
     HoverImage,
-    InfoContainer,
-  },
+    InfoContainer
+  }
 });
 </script>
 
