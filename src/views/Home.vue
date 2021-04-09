@@ -79,12 +79,12 @@
     <InfoContainer>
       <div class="col">
         <h5><strong>Ylioppilas</strong></h5>
-        <li>General Science, Compouter Science (2002 - 2004)</li>
+        <li>General Science, Computer Science (2002 - 2004)</li>
       </div>
       <div class="col">
         <h5><strong>Ammattilainen Koulutus</strong></h5>
         <p>
-          Oppilaitos: Govt. Vacational training instituate for women (2004 -
+          Oppilaitos: Govt. Vocational training institute for women (2004 -
           2006)
         </p>
         <li>Perusasiat Käsityöstä (Basic home management)</li>
@@ -97,21 +97,34 @@
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            11-02-2020 - Jatkuu edelleen
-            <br />
             <strong>
-              Työharjoittelussa
-              <br />
-              NY yritys
+              Oma yritys
             </strong>
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
+        <h5 class="q-my-sm">
+          Olen ollut vaatetusalan yrittäjänä Pakistanissa. (2009_2016)
+        </h5>
+      </div>
+    </InfoContainer>
+    <InfoContainer :work="true">
+      <div class="col col-xs-12 col-sm-4 word-details text-center">
+        <div class="word-details">
+          <h6>
+            1kk
+            <br />
+            <strong>
+              Alliina Iisalmessa
+            </strong>
+          </h6>
+        </div>
+      </div>
+      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+        <h5 class="q-my-sm">
+          Olin työharjoittelussa ja siellä tein makramee työ.
+        </h5>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
@@ -128,53 +141,22 @@
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-    </InfoContainer>
-    <InfoContainer :work="true">
-      <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
-          <h6>
-            1kk
-            <br />
-            <strong>
-              Työharjoittelussa
-              <br />
-              Alliina Iisalmessa Olen
-            </strong>
-          </h6>
-        </div>
-      </div>
       <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
+        <h5 class="q-my-sm">Korjaous ompelu, mittatilustyö.</h5>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2009 - 2016
-            <br />
             <strong>
-              yrittäjänä
-              <br />
-              Pakistanissa
+              NY yritys
             </strong>
           </h6>
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Kokea</h5>
-        <p>
-          Olen ollut vaatetusalan yrittäjänä Pakistanissa. (2009_2016)
-        </p>
+        <h5 class="q-my-sm">11-02-2020 - Jatkuu edelleen</h5>
       </div>
     </InfoContainer>
     <h5 id="portfolio" class="text-center info-semi-bold">salkun</h5>
