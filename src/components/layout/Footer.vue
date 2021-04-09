@@ -7,12 +7,12 @@
         <div class="col-12 text-center">
           <strong>
             <h6 class="q-mt-xs q-mb-xl info-bold">
-              Ota yhteyttä minuun
+              Yhteydenotto & Sijainti
             </h6></strong
           >
         </div>
         <div class="col col-5">
-          <strong><p>Ota rohkeasti yhteyttä minuun</p></strong>
+          <strong><p>Ota rohkeasti yhteyttä</p></strong>
           <q-input
             rounded
             outlined
@@ -35,11 +35,11 @@
             class="q-my-md"
             outlined
             v-model="text"
-            label="Email"
+            label="SÄHKÖPOSTI"
           />
           <q-input
             class="q-my-md"
-            label="Viestisi"
+            label="Viesti"
             v-model="text"
             filled
             type="textarea"
@@ -54,11 +54,11 @@
           <p>
             Kaikukatu 82 as 2, 70600, kuopio, Finland
           </p>
-          <strong><p>PUHELIN</p></strong>
+          <strong><p>PUH</p></strong>
           <p>
             +358 41 3157488
           </p>
-          <strong><p>Email</p></strong>
+          <strong><p>SÄHKÖPOSTI</p></strong>
           <p>
             afshan1790@gmail.com
           </p>
@@ -84,9 +84,9 @@ export default defineComponent({
   setup() {
     const text = ref("");
     return {
-      text,
+      text
     };
-  },
+  }
 });
 </script>
 
