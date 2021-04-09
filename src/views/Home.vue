@@ -23,7 +23,7 @@
             </p>
           </div>
           <div class="col-9">
-            <p class="q-ma-xs basic-info-font">31</p>
+            <p class="q-ma-xs basic-info-font">Afshan Faisal</p>
           </div>
         </div>
         <div class="row">
@@ -75,45 +75,21 @@
         </div>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">Ammattitaito</h5>
+    <h5 id="skills" class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer>
-      <div class="col col-xs-4">
-        <div class="q-px-sm">
-          <li>
-            Suunnittelu ja käsitteelliset taidot
-          </li>
-          <li>Erinomainen tyyli- ja väritaju</li>
-          <li>
-            Rakennustekniikat
-          </li>
-        </div>
+      <div class="col">
+        <h5>Ylioppilas</h5>
+        <li>General Science, Compouter Science (2002 - 2004)</li>
       </div>
-      <div class="col col-xs-4">
-        <div class="q-px-sm">
-          <li>
-            Moniajo
-          </li>
-          <li>Organisaatio</li>
-          <li>
-            Ajanhallinta
-          </li>
-        </div>
-      </div>
-      <div class="col col-xs-4">
-        <div class="q-px-sm">
-          <li>
-            Luonnos
-          </li>
-          <li>
-            Johtajuus
-          </li>
-          <li>
-            Viestintä
-          </li>
-          <li>
-            Esitys
-          </li>
-        </div>
+      <div class="col">
+        <h5>Ammattilainen Koulutus</h5>
+        <p>
+          Oppilaitos: Govt. Vacational training instituate for women (2004 -
+          2006)
+        </p>
+        <li>Perusasiat Käsityöstä (Basic home management)</li>
+        <li>Neulominen (Knitting)</li>
+        <li>Ompeleminen (Tailoring)</li>
       </div>
     </InfoContainer>
     <h5 id="experience" class="text-center info-semi-bold">Työkokemus</h5>
