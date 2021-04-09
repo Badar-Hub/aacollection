@@ -142,7 +142,7 @@
         </div>
       </div>
       <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <h5 class="q-my-sm">Korjaous ompelu, mittatilustyö.</h5>
+        <h5 class="q-my-sm">Korjaous ompelu, mittatilaustyö.</h5>
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
@@ -157,6 +157,19 @@
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
         <h5 class="q-my-sm">11-02-2020 - Jatkuu edelleen</h5>
+      </div>
+    </InfoContainer>
+    <h5 id="skills" class="text-center info-semi-bold">
+      Muu osaaminen ja vahvuudet
+    </h5>
+    <InfoContainer>
+      <div class="col">
+        <li>Perinteinen pakistanilainen ruoanlaitto</li>
+        <li>hennatatuointi</li>
+      </div>
+      <div class="col">
+        <li>Ahkeruus ja tunnollisuus</li>
+        <li>Positiivisuus ja idearikkaus</li>
       </div>
     </InfoContainer>
     <h5 id="portfolio" class="text-center info-semi-bold">salkun</h5>

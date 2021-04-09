@@ -30,6 +30,9 @@ export default defineComponent({
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+  h5 {
+    font-size: 22px;
+  }
 }
 .word-details {
   background-color: #213a35;
