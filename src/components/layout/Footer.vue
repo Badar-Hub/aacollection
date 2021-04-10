@@ -35,7 +35,7 @@
             class="q-my-md"
             outlined
             v-model="text"
-            label="SÄHKÖPOSTI"
+            label="Sähköposti"
           />
           <q-input
             class="q-my-md"
