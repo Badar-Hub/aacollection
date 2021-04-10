@@ -7,12 +7,10 @@
         </div>
         <nav class="q-my-auto">
           <ul>
-            <router-link to="#home">Koti</router-link>
-            <router-link to="#about">Noin</router-link>
-            <router-link to="#skills">Taidot</router-link>
-            <router-link to="#experience">Kokea</router-link>
-            <router-link to="#portfolio">Salkku</router-link>
-            <router-link to="#contact">Ottaa yhteyttä </router-link>
+            <router-link to="#home">henkilötiedot</router-link>
+            <router-link to="#about">Työkokemus</router-link>
+            <router-link to="#skills">Osaamiskansio</router-link>
+            <router-link to="#contact">Sijainti</router-link>
           </ul>
         </nav>
       </div>
