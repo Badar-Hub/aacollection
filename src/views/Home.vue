@@ -158,9 +158,9 @@
       </div>
     </InfoContainer>
     <div class="row max-width-center justify-center">
-      <h5 class="info-semi-bold">
+      <h3 class="info-semi-bold">
         Muu osaaminen ja vahvuudet
-      </h5>
+      </h3>
     </div>
     <InfoContainer>
       <div class="col q-my-md q-mx-xl">
@@ -186,12 +186,12 @@
       style="background-color:#ea9a55;"
       class="row max-width-center q-my-sm justify-center"
     >
-      <h5
+      <h3
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
       >
         Makrame Work
-      </h5>
+      </h3>
     </div>
     <div class="row max-width-center">
       <HoverImage
@@ -204,12 +204,12 @@
       style="background-color:#ea9a55;"
       class="row max-width-center q-my-sm justify-center"
     >
-      <h5
+      <h3
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
       >
         Dress Design
-      </h5>
+      </h3>
     </div>
     <div class="row max-width-center">
       <HoverImage img1="dresses/01.jpeg" img2="dresses/02.jpeg" img3="03.png" />
