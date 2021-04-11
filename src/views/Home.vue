@@ -73,7 +73,7 @@
         </div>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">Koulutus</h5>
+    <h5 class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer>
       <div class="col">
         <h5 class="q-my-sm"><strong>Ylioppilas</strong></h5>
@@ -90,7 +90,7 @@
         <li>Ompeleminen (Tailoring)</li>
       </div>
     </InfoContainer>
-    <h5 id="experience" class="text-center info-semi-bold">Työkokemus</h5>
+    <h5 class="text-center info-semi-bold">Työkokemus</h5>
     <InfoContainer :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
@@ -187,7 +187,7 @@
       class="row max-width-center q-my-sm justify-center"
     >
       <h4
-        style="background-color:#ea9a55; color:white"
+        style="background-color:#ea9a55; color:black"
         class="q-pa-md info-semi-bold q-my-md"
       >
         Makrameetyö
@@ -212,7 +212,7 @@
       class="row max-width-center q-my-sm justify-center"
     >
       <h4
-        style="background-color:#ea9a55; color:white"
+        style="background-color:#ea9a55; color:black"
         class="q-pa-md info-semi-bold q-my-md"
       >
         Mittatilaustyö
@@ -237,7 +237,7 @@
       class="row max-width-center q-my-sm justify-center"
     >
       <h4
-        style="background-color:#ea9a55; color:white"
+        style="background-color:#ea9a55; color:black"
         class="q-pa-md info-semi-bold q-my-md"
       >
         Hennatatu
