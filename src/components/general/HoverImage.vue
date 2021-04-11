@@ -48,7 +48,8 @@ export default defineComponent({
 }
 .image {
   display: block;
-  max-width: 395px;
+  max-width: 410px;
+  padding: 0 !important;
   width: 100%;
   height: 350px;
   transition: 0.5s ease;
