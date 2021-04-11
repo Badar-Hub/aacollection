@@ -60,7 +60,7 @@ export default defineComponent({
   display: block;
   max-width: 395px;
   width: 100%;
-  height: auto;
+  height: 350px;
   transition: 0.5s ease;
   backface-visibility: hidden;
   padding: 5px;

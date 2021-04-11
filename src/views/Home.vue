@@ -194,7 +194,7 @@
       <HoverImage
         img1="makrama/01.jpeg"
         img2="makrama/02.jpeg"
-        img3="makrama/03.jpeg"
+        img3="makrama/04.jpeg"
       />
     </div>
     <div class="row max-width-center q-my-sm ">
