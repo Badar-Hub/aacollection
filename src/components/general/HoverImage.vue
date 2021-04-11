@@ -48,7 +48,7 @@ export default defineComponent({
 }
 .image {
   display: block;
-  max-width: 410px;
+  max-width: 490px !important;
   padding: 0 !important;
   width: 100%;
   height: 350px;
@@ -79,7 +79,7 @@ export default defineComponent({
 
 @media (max-width: 597px) {
   .image {
-    max-width: unset;
+    max-width: unset !important;
   }
 }
 </style>

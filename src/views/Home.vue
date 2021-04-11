@@ -15,39 +15,39 @@
       <div id="slide" class="col col-xs-12 col-sm-6">
         <h5 class="q-my-sm info-semi-bold">Henkilötiedot</h5>
         <div class="row">
-          <div class="col-3">
+          <div class="col col-xs-6 col-sm-3">
             <p class="q-ma-xs info-bold basic-info-font">
               NIMI:
             </p>
           </div>
-          <div class="col-9">
+          <div class="col col-xs-6 col-sm-9">
             <p class="q-ma-xs basic-info-font">Afshan Faisal</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-3">
+          <div class="col col-xs-6 col-sm-3">
             <p class="q-ma-xs info-bold basic-info-font">
               PUH:
             </p>
           </div>
-          <div class="col-9">
+          <div class="col col-xs-6 col-sm-9">
             <p class="q-ma-xs basic-info-font">+358 41 3157488</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-3">
+          <div class="col col-xs-6 col-sm-3">
             <p class="q-ma-xs info-bold basic-info-font">
               OSOITE:
             </p>
           </div>
-          <div class="col-9">
+          <div class="col col-xs-6 col-sm-9">
             <p class="q-ma-xs basic-info-font">
               Kaikukatu 82 as 2, 70600, kuopio
             </p>
           </div>
         </div>
         <div class="row">
-          <div class="col-3">
+          <div class="col col-xs-6 col-sm-3">
             <p
               style="text-transform:uppercase"
               class="q-ma-xs info-bold basic-info-font"
@@ -55,17 +55,17 @@
               Sähköposti:
             </p>
           </div>
-          <div class="col-9">
+          <div class="col col-xs-6 col-sm-9">
             <p class="q-ma-xs basic-info-font">afshan1790@gmail.com</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-3">
+          <div class="col col-xs-6 col-sm-3">
             <p class="q-ma-xs info-bold basic-info-font">
               SYNT:
             </p>
           </div>
-          <div class="col-9">
+          <div class="col col-xs-6 col-sm-9">
             <p class="q-ma-xs basic-info-font">
               30-01-1989
             </p>
@@ -75,11 +75,11 @@
     </InfoContainer>
     <h5 class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer>
-      <div class="col">
+      <div class="col col-xs-12 col-sm-6">
         <h5 class="q-my-sm"><strong>Ylioppilas</strong></h5>
         <li>General Science, Computer Science (2002 - 2004)</li>
       </div>
-      <div class="col">
+      <div class="col col-xs-12 col-sm-6">
         <h5 class="q-my-sm"><strong>Ammattilainen Koulutus</strong></h5>
         <p>
           Oppilaitos: Govt. Vocational training institute for women (2004 -
@@ -163,16 +163,22 @@
       </h5>
     </div>
     <InfoContainer>
-      <div class="col q-my-md q-mx-xl">
-        <div class="q-mx-auto">
-          <h5>Perinteinen pakistanilainen ruoanlaitto</h5>
-          <h5>hennatatuointi</h5>
+      <div
+        :class="$q.screen.gt.xs ? 'q-px-xl' : ''"
+        class="col col-xs-12 col-sm-6 q-my-md"
+      >
+        <div>
+          <li class="text-h5">Perinteinen pakistanilainen ruoanlaitto</li>
+          <li class="text-h5">hennatatuointi</li>
         </div>
       </div>
-      <div class="col q-my-md q-mx-xl">
+      <div
+        :class="$q.screen.gt.xs ? 'q-px-xl' : ''"
+        class="col col-xs-12 col-sm-6 q-my-md"
+      >
         <div class="q-mx-auto">
-          <h5>Ahkeruus ja tunnollisuus</h5>
-          <h5>Positiivisuus ja idearikkaus</h5>
+          <li class="text-h5">Ahkeruus ja tunnollisuus</li>
+          <li class="text-h5">Positiivisuus ja idearikkaus</li>
         </div>
       </div>
     </InfoContainer>
@@ -254,8 +260,8 @@
       <div
         class="col col-xs-12 col-sm-4 justify-center word-details text-center"
       >
-        <div class="word-details q-ma-auto grid-pat">
-          <h6 class="q-my-auto">
+        <div id="skills" class="word-details q-ma-auto grid-pat">
+          <h6>
             <strong>
               Kielitaito
             </strong>
@@ -281,19 +287,19 @@
       </div>
       <div class="col col-xs-12 col-sm-8 q-px-xl">
         <div class="row">
-          <div class="col-4">
+          <div class="col-xs-12 col-sm-4">
             <h5 class="q-my-sm">Microsoft office:</h5>
             <li>Word: erinomainen</li>
             <li>PowerPoint: hyvä</li>
             <li>Excell: perusteet</li>
           </div>
-          <div class="col-4 self-center ">
+          <div class="col-xs-12 col-sm-4 self-center ">
             <div class="q-my-auto">
               <h5 class="q-my-sm">Sähköposti: hyvä</h5>
               <h5 class="q-my-sm">Moodle: hyvä</h5>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-xs-12 col-sm-4">
             <h5 class="q-my-sm">Sosiaalinen media</h5>
             <li>Facebook</li>
             <li>Instagram</li>
@@ -317,13 +323,13 @@
         <h5 class="q-my-sm">Kirjonta</h5>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">Työtavoite</h5>
+    <h5 class="text-center info-semi-bold">Työtavoite</h5>
     <InfoContainer>
       <div class="col text-center">
         <h5>Haluan perustaa oman yrityksen Suomeen.</h5>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">Suositus</h5>
+    <h5 class="text-center info-semi-bold">Suositus</h5>
     <InfoContainer>
       <div class="col-2"></div>
       <div class="col-8 text-center">

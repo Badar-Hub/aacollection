@@ -7,10 +7,10 @@
         </div>
         <nav class="q-my-auto">
           <ul>
-            <router-link to="#home">Henkilötiedot</router-link>
-            <router-link to="#about">Työkokemus</router-link>
-            <router-link to="#skills">Osaamiskansio</router-link>
-            <router-link to="#contact">Sijainti</router-link>
+            <a href="#home">Henkilötiedot</a>
+            <a href="#about">Työkokemus</a>
+            <a href="#skills">Osaamiskansio</a>
+            <a href="#contact">Sijainti</a>
           </ul>
         </nav>
       </div>
@@ -28,9 +28,13 @@ export default defineComponent({});
 .header-main {
   background-color: #ea9a55;
 }
-nav ul li a {
-  @media (max-width: 597px) {
-    padding: 0px;
+nav {
+  margin: auto;
+  overflow: hidden;
+  ul {
+    @media (max-width: 597px) {
+      padding: 0px;
+    }
   }
 }
 .logo {
@@ -49,11 +53,18 @@ header {
   width: 100%;
   padding: 5px;
   background-color: #ea9a55;
+  @media (max-width: 500px) {
+    padding: 0px;
+  }
   a {
     padding-right: 20px;
     font-size: 18px;
     text-decoration: none;
     color: black;
+    @media (max-width: 570px) {
+      padding-right: 10px;
+      font-size: 16px;
+    }
   }
   a:hover {
     text-decoration: underline;
