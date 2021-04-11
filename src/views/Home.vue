@@ -359,7 +359,7 @@ li {
 }
 
 .profile-img {
-  max-width: 200px;
+  max-width: 141px;
   border-radius: 60%;
 }
 </style>
