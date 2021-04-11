@@ -26,7 +26,7 @@ export default defineComponent({});
 
 <style lang="scss">
 .header-main {
-  background-color: #850e10;
+  background-color: #ea9a55;
 }
 nav ul li a {
   @media (max-width: 597px) {
@@ -48,7 +48,7 @@ header {
   max-width: 1200px;
   width: 100%;
   padding: 5px;
-  background-color: #850e10;
+  background-color: #ea9a55;
   a {
     padding-right: 20px;
     font-size: 18px;

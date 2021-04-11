@@ -4,7 +4,7 @@
       <q-carousel-slide
         :name="1"
         :style="
-          `background-image: url(${require(`@/assets/images/Header/header1.jpg`)})`
+          `background-image: url(${require(`@/assets/images/Header/header2.jpg`)})`
         "
       />
     </Slider>

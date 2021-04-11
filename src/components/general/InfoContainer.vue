@@ -40,7 +40,7 @@ export default defineComponent({
   }
 }
 .word-details {
-  background-color: #850e10;
+  background-color: #ea9a55;
   color: white;
 }
 </style>
