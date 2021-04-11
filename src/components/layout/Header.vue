@@ -53,7 +53,7 @@ header {
     padding-right: 20px;
     font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: black;
   }
   a:hover {
     text-decoration: underline;
