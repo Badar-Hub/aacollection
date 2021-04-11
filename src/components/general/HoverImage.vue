@@ -6,9 +6,6 @@
         class="image"
         style="width:100%"
       />
-      <div class="middle">
-        <div class="text">Makrame Work</div>
-      </div>
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
@@ -16,9 +13,6 @@
         class="image"
         style="width:100%"
       />
-      <div class="middle">
-        <div class="text">Dress Design</div>
-      </div>
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
@@ -26,9 +20,6 @@
         class="image"
         style="width:100%"
       />
-      <div class="middle">
-        <div class="text">Henna Design</div>
-      </div>
     </div>
   </div>
 </template>
@@ -56,7 +47,6 @@ export default defineComponent({
   position: relative;
 }
 .image {
-  opacity: 1;
   display: block;
   max-width: 395px;
   width: 100%;
@@ -75,14 +65,6 @@ export default defineComponent({
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
 }
 
 .text {
