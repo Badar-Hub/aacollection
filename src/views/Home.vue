@@ -9,10 +9,8 @@
       />
     </Slider>
     <InfoContainer id="about">
-      <div id="slide" class="col col-xs-12 col-sm-6">
-        <h5 class="q-my-sm info-semi-bold">
-          Noin
-        </h5>
+      <div id="slide" class="col col-xs-12 col-sm-6 text-center">
+        <img class="profile-img" src="@/assets/images/profile.jpeg" />
       </div>
       <div id="slide" class="col col-xs-12 col-sm-6">
         <h5 class="q-my-sm info-semi-bold">Henkilötiedot</h5>
@@ -358,5 +356,10 @@ li {
   align-items: center;
   height: 100%;
   margin: auto 0;
+}
+
+.profile-img {
+  max-width: 200px;
+  border-radius: 60%;
 }
 </style>
