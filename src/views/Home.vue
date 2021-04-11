@@ -361,5 +361,14 @@ li {
 .profile-img {
   max-width: 141px;
   border-radius: 60%;
+  width: 190px;
+  height: 190px;
+  border: 2px solid #fff;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
 }
 </style>
