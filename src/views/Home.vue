@@ -182,8 +182,52 @@
         src="@/assets/images/Category/01.jpg"
       />
     </div>
+    <div class="row max-width-center q-my-sm ">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <img
+          style="max-width: 500px; width:100%"
+          src="@/assets/images/Category/02.jpg"
+        />
+      </div>
+      <div class="col-3"></div>
+    </div>
     <div class="row max-width-center">
-      <HoverImage />
+      <HoverImage
+        img1="makrama/01.jpeg"
+        img2="makrama/02.jpeg"
+        img3="makrama/03.jpeg"
+      />
+    </div>
+    <div class="row max-width-center q-my-sm ">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <img
+          style="max-width: 500px; width:100%"
+          src="@/assets/images/Category/03.png"
+        />
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row max-width-center">
+      <HoverImage
+        img1="dresses/01.jpeg"
+        img2="dresses/02.jpeg"
+        img3="dresses/03.jpg"
+      />
+    </div>
+    <div class="row max-width-center q-my-sm ">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <img
+          style="max-width: 500px; width:100%"
+          src="@/assets/images/Category/04.png"
+        />
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row max-width-center">
+      <HoverImage img1="henna/01.jpg" img2="henna/02.jpg" img3="henna/03.jpg" />
     </div>
     <InfoContainer class="languages" :work="true">
       <div

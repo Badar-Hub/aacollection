@@ -2,7 +2,7 @@
   <div class="row justify-evenly">
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/02.jpg"
+        :src="require(`@/assets/images/Category/${img1}`)"
         class="image"
         style="width:100%"
       />
@@ -12,7 +12,7 @@
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/03.png"
+        :src="require(`@/assets/images/Category/${img2}`)"
         class="image"
         style="width:100%"
       />
@@ -22,7 +22,7 @@
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
-        src="@/assets/images/Category/04.png"
+        :src="require(`@/assets/images/Category/${img3}`)"
         class="image"
         style="width:100%"
       />
@@ -36,7 +36,19 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-export default defineComponent({});
+export default defineComponent({
+  props: {
+    img1: {
+      type: String
+    },
+    img2: {
+      type: String
+    },
+    img3: {
+      type: String
+    }
+  }
+});
 </script>
 
 <style scoped>
