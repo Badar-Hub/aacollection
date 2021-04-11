@@ -10,12 +10,12 @@
     </Slider>
     <InfoContainer id="about">
       <div id="slide" class="col col-xs-12 col-sm-6">
-        <h5 class="q-my-md info-semi-bold">
+        <h5 class="q-my-sm info-semi-bold">
           Noin
         </h5>
       </div>
       <div id="slide" class="col col-xs-12 col-sm-6">
-        <h5 class="q-my-md info-semi-bold">Henkilötiedot</h5>
+        <h5 class="q-my-sm info-semi-bold">Henkilötiedot</h5>
         <div class="row">
           <div class="col-3">
             <p class="q-ma-xs info-bold basic-info-font">
@@ -78,11 +78,11 @@
     <h5 id="skills" class="text-center info-semi-bold">Koulutus</h5>
     <InfoContainer>
       <div class="col">
-        <h5><strong>Ylioppilas</strong></h5>
+        <h5 class="q-my-sm"><strong>Ylioppilas</strong></h5>
         <li>General Science, Computer Science (2002 - 2004)</li>
       </div>
       <div class="col">
-        <h5><strong>Ammattilainen Koulutus</strong></h5>
+        <h5 class="q-my-sm"><strong>Ammattilainen Koulutus</strong></h5>
         <p>
           Oppilaitos: Govt. Vocational training institute for women (2004 -
           2006)
@@ -103,7 +103,7 @@
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl self-center">
         <h5 class="q-my-sm">
           Olen ollut vaatetusalan yrittäjänä Pakistanissa. (2009_2016)
         </h5>
@@ -121,7 +121,7 @@
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl self-center">
         <h5 class="q-my-sm">
           Olin työharjoittelussa ja siellä tein makramee työ.
         </h5>
@@ -141,7 +141,7 @@
           </h6>
         </div>
       </div>
-      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl self-center">
         <h5 class="q-my-sm">Korjaous ompelu, mittatilaustyö.</h5>
       </div>
     </InfoContainer>
@@ -155,7 +155,7 @@
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl self-center">
         <h5 class="q-my-sm">11-02-2020 - Jatkuu edelleen</h5>
       </div>
     </InfoContainer>
@@ -163,13 +163,13 @@
       Muu osaaminen ja vahvuudet
     </h5>
     <InfoContainer>
-      <div class="col">
+      <div class="col q-my-md q-mx-xl">
         <div class="q-mx-auto">
           <li>Perinteinen pakistanilainen ruoanlaitto</li>
           <li>hennatatuointi</li>
         </div>
       </div>
-      <div class="col">
+      <div class="col q-my-md q-mx-xl">
         <div class="q-mx-auto">
           <li>Ahkeruus ja tunnollisuus</li>
           <li>Positiivisuus ja idearikkaus</li>
@@ -184,29 +184,20 @@
     </div>
     <div class="row max-width-center">
       <HoverImage />
-      <!-- <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/02.jpg" />
-      </div>
-      <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/03.png" />
-      </div>
-      <div class="col-sm-4">
-        <img class="categories-img" src="@/assets/images/Category/04.png" />
-      </div> -->
     </div>
     <InfoContainer class="languages" :work="true">
       <div
         class="col col-xs-12 col-sm-4 justify-center word-details text-center"
       >
-        <div class="word-details q-ma-auto">
-          <h6 class="q-ma-auto">
+        <div class="word-details q-ma-auto grid-pat">
+          <h6 class="q-my-auto">
             <strong>
               Kielitaito
             </strong>
           </h6>
         </div>
       </div>
-      <div class="col col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="col col-xs-12 col-sm-8 q-px-xl">
         <h5 class="q-my-sm">Urdu: äidinkieli</h5>
         <h5 class="q-my-sm">Englanti: erinomainen</h5>
         <h5 class="q-my-sm">Punjabi: erinomainen</h5>
@@ -215,7 +206,7 @@
     </InfoContainer>
     <InfoContainer class="languages" :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
+        <div class="word-details grid-pat">
           <h6>
             <strong>
               IT-Taidot
@@ -231,7 +222,7 @@
             <li>PowerPoint: hyvä</li>
             <li>Excell: perusteet</li>
           </div>
-          <div class="col-4">
+          <div class="col-4 self-center ">
             <div class="q-my-auto">
               <h5 class="q-my-sm">Sähköposti: hyvä</h5>
               <h5 class="q-my-sm">Moodle: hyvä</h5>
@@ -248,13 +239,13 @@
     </InfoContainer>
     <InfoContainer class="languages" :work="true">
       <div class="col col-xs-12 col-sm-4 word-details text-center">
-        <div class="word-details">
+        <div class="word-details grid-pat">
           <h6>
             <strong>Harrastukset </strong>
           </h6>
         </div>
       </div>
-      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+      <div class="co col-xs-12 col-sm-8 q-px-xl">
         <h5 class="q-my-sm">Lukeminen</h5>
         <h5 class="q-my-sm">Runous</h5>
         <h5 class="q-my-sm">Ulkoilu</h5>
@@ -266,6 +257,18 @@
       <div class="col text-center">
         <h5>Haluan perustaa oman yrityksen Suomeen.</h5>
       </div>
+    </InfoContainer>
+    <h5 id="skills" class="text-center info-semi-bold">Suositus</h5>
+    <InfoContainer>
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
+        <h5>
+          ”Voin lämpimästi suositella AA Collecsonia, mikäli tarvitset kaunista,
+          linjakasta ja uudenlaista vaatetusta itsellesi. Työnjälki on
+          ainutlaatuista ja toimitus nopeaa” Artenomi Leena Valtonen ””
+        </h5>
+      </div>
+      <div class="col-2"></div>
     </InfoContainer>
   </div>
 </template>
@@ -300,5 +303,16 @@ li {
 .category-header-image {
   max-width: 1200px;
   width: 100%;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.grid-pat {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  margin: auto 0;
 }
 </style>
