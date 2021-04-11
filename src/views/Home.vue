@@ -157,9 +157,11 @@
         <h5 class="q-my-sm">11-02-2020 - Jatkuu edelleen</h5>
       </div>
     </InfoContainer>
-    <h5 id="skills" class="text-center info-semi-bold">
-      Muu osaaminen ja vahvuudet
-    </h5>
+    <div class="row max-width-center justify-center">
+      <h5 class="info-semi-bold">
+        Muu osaaminen ja vahvuudet
+      </h5>
+    </div>
     <InfoContainer>
       <div class="col q-my-md q-mx-xl">
         <div class="q-mx-auto">
@@ -180,15 +182,13 @@
         src="@/assets/images/Category/01.jpg"
       />
     </div>
-    <div class="row max-width-center q-my-sm ">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <img
-          style="max-width: 500px; width:100%"
-          src="@/assets/images/Category/02.jpg"
-        />
-      </div>
-      <div class="col-3"></div>
+    <div class="row max-width-center q-my-sm justify-center">
+      <h5
+        style="background-color:#ea9a55; color:white"
+        class="q-pa-md info-semi-bold"
+      >
+        Makrame Work
+      </h5>
     </div>
     <div class="row max-width-center">
       <HoverImage
@@ -197,32 +197,24 @@
         img3="makrama/04.jpeg"
       />
     </div>
-    <div class="row max-width-center q-my-sm ">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <img
-          style="max-width: 500px; width:100%"
-          src="@/assets/images/Category/03.png"
-        />
-      </div>
-      <div class="col-3"></div>
+    <div class="row max-width-center q-my-sm justify-center">
+      <h5
+        style="background-color:#ea9a55; color:white"
+        class="q-pa-md info-semi-bold"
+      >
+        Dress Design
+      </h5>
     </div>
     <div class="row max-width-center">
-      <HoverImage
-        img1="dresses/01.jpeg"
-        img2="dresses/02.jpeg"
-        img3="dresses/03.jpg"
-      />
+      <HoverImage img1="dresses/01.jpeg" img2="dresses/02.jpeg" img3="03.png" />
     </div>
-    <div class="row max-width-center q-my-sm ">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <img
-          style="max-width: 500px; width:100%"
-          src="@/assets/images/Category/04.png"
-        />
-      </div>
-      <div class="col-3"></div>
+    <div class="row max-width-center q-my-sm justify-center">
+      <h5
+        style="background-color:#ea9a55; color:white"
+        class="q-pa-md info-semi-bold"
+      >
+        Henna Design
+      </h5>
     </div>
     <div class="row max-width-center">
       <HoverImage img1="henna/01.jpg" img2="henna/02.jpg" img3="henna/03.jpg" />
