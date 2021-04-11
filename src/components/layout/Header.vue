@@ -7,7 +7,7 @@
         </div>
         <nav class="q-my-auto">
           <ul>
-            <router-link to="#home">henkilötiedot</router-link>
+            <router-link to="#home">Henkilötiedot</router-link>
             <router-link to="#about">Työkokemus</router-link>
             <router-link to="#skills">Osaamiskansio</router-link>
             <router-link to="#contact">Sijainti</router-link>

@@ -165,14 +165,14 @@
     <InfoContainer>
       <div class="col q-my-md q-mx-xl">
         <div class="q-mx-auto">
-          <li>Perinteinen pakistanilainen ruoanlaitto</li>
-          <li>hennatatuointi</li>
+          <h5>Perinteinen pakistanilainen ruoanlaitto</h5>
+          <h5>hennatatuointi</h5>
         </div>
       </div>
       <div class="col q-my-md q-mx-xl">
         <div class="q-mx-auto">
-          <li>Ahkeruus ja tunnollisuus</li>
-          <li>Positiivisuus ja idearikkaus</li>
+          <h5>Ahkeruus ja tunnollisuus</h5>
+          <h5>Positiivisuus ja idearikkaus</h5>
         </div>
       </div>
     </InfoContainer>
@@ -188,16 +188,23 @@
     >
       <h4
         style="background-color:#ea9a55; color:white"
-        class="q-pa-md info-semi-bold"
+        class="q-pa-md info-semi-bold q-my-md"
       >
-        Makrame Work
+        Makrameetyö
       </h4>
     </div>
     <div class="row max-width-center">
       <HoverImage
         img1="makrama/01.jpeg"
         img2="makrama/02.jpeg"
-        img3="makrama/04.jpeg"
+        img3="makrama/03.jpeg"
+      />
+    </div>
+    <div class="row max-width-center">
+      <HoverImage
+        img1="makrama/04.jpeg"
+        img2="makrama/05.jpeg"
+        img3="makrama/06.jpeg"
       />
     </div>
     <div
@@ -206,13 +213,24 @@
     >
       <h4
         style="background-color:#ea9a55; color:white"
-        class="q-pa-md info-semi-bold"
+        class="q-pa-md info-semi-bold q-my-md"
       >
-        Dress Design
+        Mittatilaustyö
       </h4>
     </div>
     <div class="row max-width-center">
-      <HoverImage img1="dresses/01.jpeg" img2="dresses/02.jpeg" img3="03.png" />
+      <HoverImage
+        img1="dresses/01.jpeg"
+        img2="dresses/02.jpeg"
+        img3="dresses/03.jpeg"
+      />
+    </div>
+    <div class="row max-width-center">
+      <HoverImage
+        img1="dresses/04.jpeg"
+        img2="dresses/05.jpeg"
+        img3="dresses/06.png"
+      />
     </div>
     <div
       style="background-color:#ea9a55;"
@@ -220,13 +238,17 @@
     >
       <h4
         style="background-color:#ea9a55; color:white"
-        class="q-pa-md info-semi-bold"
+        class="q-pa-md info-semi-bold q-my-md"
       >
-        Henna Design
+        Hennatatu
       </h4>
     </div>
     <div class="row max-width-center">
-      <HoverImage img1="henna/01.jpg" img2="henna/02.jpg" img3="henna/03.jpg" />
+      <HoverImage
+        img1="henna/01.jpg"
+        img2="henna/02.jpg"
+        img3="henna/03.jpeg"
+      />
     </div>
     <InfoContainer class="languages" :work="true">
       <div

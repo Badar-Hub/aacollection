@@ -41,6 +41,6 @@ export default defineComponent({
 }
 .word-details {
   background-color: #ea9a55;
-  color: white;
+  color: black;
 }
 </style>
