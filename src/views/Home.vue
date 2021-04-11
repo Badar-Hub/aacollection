@@ -158,9 +158,9 @@
       </div>
     </InfoContainer>
     <div class="row max-width-center justify-center">
-      <h3 class="info-semi-bold">
+      <h5 class="info-semi-bold">
         Muu osaaminen ja vahvuudet
-      </h3>
+      </h5>
     </div>
     <InfoContainer>
       <div class="col q-my-md q-mx-xl">
@@ -186,12 +186,12 @@
       style="background-color:#ea9a55;"
       class="row max-width-center q-my-sm justify-center"
     >
-      <h3
+      <h4
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
       >
         Makrame Work
-      </h3>
+      </h4>
     </div>
     <div class="row max-width-center">
       <HoverImage
@@ -204,12 +204,12 @@
       style="background-color:#ea9a55;"
       class="row max-width-center q-my-sm justify-center"
     >
-      <h3
+      <h4
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
       >
         Dress Design
-      </h3>
+      </h4>
     </div>
     <div class="row max-width-center">
       <HoverImage img1="dresses/01.jpeg" img2="dresses/02.jpeg" img3="03.png" />
@@ -218,12 +218,12 @@
       style="background-color:#ea9a55;"
       class="row max-width-center q-my-sm justify-center"
     >
-      <h5
+      <h4
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
       >
         Henna Design
-      </h5>
+      </h4>
     </div>
     <div class="row max-width-center">
       <HoverImage img1="henna/01.jpg" img2="henna/02.jpg" img3="henna/03.jpg" />
