@@ -182,7 +182,10 @@
         src="@/assets/images/Category/01.jpg"
       />
     </div>
-    <div class="row max-width-center q-my-sm justify-center">
+    <div
+      style="background-color:#ea9a55;"
+      class="row max-width-center q-my-sm justify-center"
+    >
       <h5
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
@@ -197,7 +200,10 @@
         img3="makrama/04.jpeg"
       />
     </div>
-    <div class="row max-width-center q-my-sm justify-center">
+    <div
+      style="background-color:#ea9a55;"
+      class="row max-width-center q-my-sm justify-center"
+    >
       <h5
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
@@ -208,7 +214,10 @@
     <div class="row max-width-center">
       <HoverImage img1="dresses/01.jpeg" img2="dresses/02.jpeg" img3="03.png" />
     </div>
-    <div class="row max-width-center q-my-sm justify-center">
+    <div
+      style="background-color:#ea9a55;"
+      class="row max-width-center q-my-sm justify-center"
+    >
       <h5
         style="background-color:#ea9a55; color:white"
         class="q-pa-md info-semi-bold"
