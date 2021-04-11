@@ -29,7 +29,9 @@ export default defineComponent({});
   background-color: #ea9a55;
 }
 nav {
-  margin: auto;
+  @media (max-width: 550px) {
+    margin: auto;
+  }
   overflow: hidden;
   ul {
     @media (max-width: 597px) {
