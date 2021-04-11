@@ -164,7 +164,7 @@
     </div>
     <InfoContainer>
       <div
-        :class="$q.screen.gt.xs ? 'q-px-xl' : ''"
+        :class="$q.screen.gt.xs ? 'q-px-md' : ''"
         class="col col-xs-12 col-sm-6 q-my-md"
       >
         <div>
@@ -173,7 +173,7 @@
         </div>
       </div>
       <div
-        :class="$q.screen.gt.xs ? 'q-px-xl' : ''"
+        :class="$q.screen.gt.xs ? 'q-px-md' : ''"
         class="col col-xs-12 col-sm-6 q-my-md"
       >
         <div class="q-mx-auto">
@@ -250,11 +250,7 @@
       </h4>
     </div>
     <div class="row max-width-center">
-      <HoverImage
-        img1="henna/01.jpg"
-        img2="henna/02.jpg"
-        img3="henna/03.jpeg"
-      />
+      <HoverImage img1="henna/01.jpg" img2="henna/02.jpg" img3="henna/03.jpg" />
     </div>
     <InfoContainer class="languages" :work="true">
       <div
