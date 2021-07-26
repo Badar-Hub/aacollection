@@ -135,7 +135,7 @@
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
         <li>
-          Working with various clients on Vue and Node Projects, using libraries
+          Working with various clients on VueJs and NodeJs Projects, using libraries
           such as Vuex, Vue-Router, Quasar etc
         </li>
         <li>
@@ -143,7 +143,7 @@
           techniques
         </li>
         <li>
-          Working on Nodejs with ExpressJs. Developing Restful & GraphQl APIs
+          Working on Nodejs with ExpressJs, developing Restful & GraphQl APIs
         </li>
       </div>
     </InfoContainer>
