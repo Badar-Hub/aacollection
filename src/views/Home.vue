@@ -123,7 +123,35 @@
       <div class="col col-xs-12 col-sm-4 word-details text-center">
         <div class="word-details">
           <h6>
-            2020-11 - Current
+            2021-05 - Current
+            <br />
+            <strong>
+              Full Stack Developer
+              <br />
+              Tech Origin
+            </strong>
+          </h6>
+        </div>
+      </div>
+      <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
+        <li>
+          Working with various clients on Vue and Node Projects, using libraries
+          such as Vuex, Vue-Router, Quasar etc
+        </li>
+        <li>
+          Migrating VueJs 2 code bases to VueJs 3, and using best practices and
+          techniques
+        </li>
+        <li>
+          Working on Nodejs with ExpressJs. Developing Restful & GraphQl APIs
+        </li>
+      </div>
+    </InfoContainer>
+    <InfoContainer :work="true">
+      <div class="col col-xs-12 col-sm-4 word-details text-center">
+        <div class="word-details">
+          <h6>
+            2020-11 - 2021-05
             <br />
             <strong>
               Senior Vuejs Developer
@@ -155,7 +183,7 @@
             2020-10 - Current
             <br />
             <strong>
-              Fullstack Developer
+              Full Stack Developer
               <br />
               Curaprox
             </strong>
@@ -224,20 +252,26 @@
       <HoverImage
         img1="01.png"
         txt1="Curaprox"
+        link1="http://www.curaprox.cf"
         img2="02.png"
         txt2="Buruj"
+        link2="http://www.buruj.pk"
         img3="03.png"
         txt3="Wet N Wild"
+        link3="https://wetnwild.netlify.app/"
       />
     </div>
     <div class="row max-width-center">
       <HoverImage
         img1="04.png"
         txt1="LA Girls"
+        link1="https://lagirlpakistan.com/"
         img2="05.png"
         txt2="AA Collection"
+        link2="https://aa-collection.netlify.app/"
         img3="06.png"
         txt3="Bilal Enterprises"
+        link3="https://www.bilalenterprises.pk/"
       />
     </div>
     <h5 class="text-center info-semi-bold">Education</h5>

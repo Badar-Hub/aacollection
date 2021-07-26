@@ -7,12 +7,12 @@
         </div>
         <nav class="q-my-auto">
           <ul>
-            <router-link to="#home">Home</router-link>
-            <router-link to="#about">About</router-link>
-            <router-link to="#skills">Skiils</router-link>
-            <router-link to="#experience">Experience</router-link>
-            <router-link to="#portfolio">Education</router-link>
-            <router-link to="#contact">Contact Us </router-link>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skiils</a>
+            <a href="#experience">Experience</a>
+            <a href="#portfolio">Education</a>
+            <a href="#contact">Contact Us </a>
           </ul>
         </nav>
       </div>

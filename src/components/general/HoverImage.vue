@@ -6,9 +6,11 @@
         class="image"
         style="width:100%"
       />
+      <a :href="link1">
       <div class="middle">
         <div class="text">{{ txt1 }}</div>
       </div>
+      </a>
     </div>
     <div class="col col-xs-12 col-sm-4 container">
       <img
@@ -16,19 +18,23 @@
         class="image"
         style="width:100%"
       />
+      <a :href="link2">
       <div class="middle">
         <div class="text">{{ txt2 }}</div>
       </div>
+      </a>
     </div>
-    <div class="col col-xs-12 col-sm-4 container">
+    <div v-if="img3" class="col col-xs-12 col-sm-4 container">
       <img
         :src="require(`@/assets/images/Category/${img3}`)"
         class="image"
         style="width:100%"
       />
+      <a :href="link3">
       <div class="middle">
         <div class="text">{{ txt3 }}</div>
       </div>
+      </a>
     </div>
   </div>
 </template>
@@ -54,6 +60,15 @@ export default defineComponent({
       type: String,
     },
     txt3: {
+      type: String,
+    },
+    link1: {
+      type: String,
+    },
+    link2: {
+      type: String,
+    },
+    link3: {
       type: String,
     },
   },
