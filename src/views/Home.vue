@@ -135,8 +135,8 @@
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
         <li>
-          Working with various clients on VueJs and NodeJs Projects, using libraries
-          such as Vuex, Vue-Router, Quasar etc
+          Working with various clients on VueJs and NodeJs Projects, using
+          libraries such as Vuex, Vue-Router, Quasar etc
         </li>
         <li>
           Migrating VueJs 2 code bases to VueJs 3, and using best practices and
@@ -162,18 +162,11 @@
         </div>
       </div>
       <div class="co col-xs-12 col-sm-8 q-py-lg q-px-xl">
-        <li>
-          Working on the Restaurant admin platform, implementing the latest
-          technologies i.e Vue 3, DI and best practices coming
-        </li>
-        <li>
-          From the SOLID principles, also working with integrating & upgrading
-          the current microservices based
-        </li>
-        <li>
-          Application, helping the community while solving bugs to improve the
-          overall quality and efficiency of the
-        </li>
+        Working on the Restaurant admin platform, implementing the latest
+        technologies i.e Vue 3, DI and best practices coming. From the SOLID
+        principles, also working with integrating & upgrading the current
+        microservices based Application, helping the community while solving
+        bugs to improve the overall quality and efficiency of the system
       </div>
     </InfoContainer>
     <InfoContainer :work="true">
