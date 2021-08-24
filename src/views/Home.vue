@@ -11,7 +11,7 @@
         <div class="row full-width">
           <img
             class="custom-image "
-            src="@/assets/images/profile.jpeg"
+            src="@/assets/images/profile.png"
             alt="profile-pic"
           />
         </div>
@@ -54,23 +54,6 @@
             src="@/assets/images/Category/edited-images/02.png"
           />
         </router-link>
-      </div>
-    </div>
-    <div class="row max-width-center">
-      <div class="col-xs-12 col-sm-4 q-px-lg">
-        <h6 class="q-my-xs text-center text-weight-bold text-border-cl">
-          Hennatatuointi
-        </h6>
-      </div>
-      <div class="col-xs-12 col-sm-4 q-px-lg">
-        <h6 class="q-my-xs text-center text-weight-bold text-border-cl">
-          Makramesolmeilu
-        </h6>
-      </div>
-      <div class="col-xs-12 col-sm-4 q-px-lg">
-        <h6 class="q-my-xs text-center text-weight-bold text-border-cl">
-          Mittatilausompelu
-        </h6>
       </div>
     </div>
     <h5 class="text-center info-semi-bold">Suositus</h5>
