@@ -1,85 +1,44 @@
 <template>
   <div class="row">
-    <!-- <div
-      v-for="(image, index) in images"
+    <div
+      v-for="(image, index) in filteredImages"
       :key="index"
       class="col-xs-12 col-sm-4"
     >
-      <img :src="require(`@/assets/images/images-category/${route.meta}/`)" />
-    </div> -->
+      <img
+        class="custom-images-image"
+        :src="require(`@/assets/images/images-category/${route.name}/${image}`)"
+      />
+    </div>
     <h1>Images</h1>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { ref, defineComponent, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 
 export default defineComponent({
   setup() {
-    const images = ref({
-      mandi: [
-        '01.jpeg',
-        '02.jpeg',
-        '03.jpeg',
-        '04.jpeg',
-        '05.jpeg',
-        '06.jpeg',
-        '07.jpeg',
-        '08.jpeg',
-        '09.jpeg',
-      ],
-      makrama: [
-        '01.jpeg',
-        '02.jpeg',
-        '03.jpeg',
-        '04.jpeg',
-        '05.jpeg',
-        '06.jpeg',
-        '07.jpeg',
-        '08.jpeg',
-        '09.jpeg',
-        '10.jpeg',
-      ],
-      dresses: [
-        '01.jpeg',
-        '02.jpeg',
-        '03.jpeg',
-        '04.jpeg',
-        '05.jpeg',
-        '06.jpeg',
-        '07.jpeg',
-        '08.jpeg',
-        '09.jpeg',
-        '10.jpeg',
-        '11.jpeg',
-        '12.jpeg',
-        '13.jpeg',
-        '14.jpeg',
-        '15.jpeg',
-        '16.jpeg',
-        '17.jpeg',
-        '18.jpeg',
-        '19.jpeg',
-        '20.jpeg',
-        '21.jpeg',
-      ],
-    });
     const route = useRoute();
-    const filteredImages = ref();
+    const filteredImages = ref([]);
 
     onMounted(() => {
-      const value = route.meta.title;
-      filteredImages.value = Object.keys(images);
-      console.log(filteredImages.value, value);
+      filteredImages.value = route.meta.images;
+      console.log(filteredImages.value);
     });
 
     return {
-      images,
       route,
+      filteredImages,
     };
   },
 });
 </script>
 
-<style></style>
+<style>
+.custom-images-image {
+  max-width: 300px;
+  width: 100%;
+}
+</style>

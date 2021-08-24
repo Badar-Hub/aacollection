@@ -32,10 +32,10 @@
     </div>
     <div class="row max-width-center">
       <div class="col-xs-12 col-sm-4 q-px-md q-pt-md">
-        <router-link to="/gallery/mandi">
+        <router-link to="/gallery/dresses">
           <img
             class="custom-image-edited"
-            src="@/assets/images/Category/edited-images/02.png"
+            src="@/assets/images/Category/edited-images/01.png"
           />
         </router-link>
       </div>
@@ -48,10 +48,10 @@
         </router-link>
       </div>
       <div class="col-xs-12 col-sm-4 q-px-md q-pt-md">
-        <router-link to="/gallery/dresses">
+        <router-link to="/gallery/mandi">
           <img
             class="custom-image-edited"
-            src="@/assets/images/Category/edited-images/01.png"
+            src="@/assets/images/Category/edited-images/02.png"
           />
         </router-link>
       </div>
