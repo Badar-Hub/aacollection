@@ -10,7 +10,13 @@
         :src="require(`@/assets/images/images-category/${route.name}/${image}`)"
       />
     </div>
-    <h1>Images</h1>
+    <div class="col-xs-12">
+      <div class="row justify-center full-width">
+        <router-link class="no-underline" to="/">
+          <h3 class="q-my-sm cl-black">Kotisivu</h3>
+        </router-link>
+      </div>
+    </div>
   </div>
 </template>
 

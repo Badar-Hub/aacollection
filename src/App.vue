@@ -21,6 +21,16 @@ export default defineComponent({
 .cl-white {
   color: white !important;
 }
+.cl-black {
+  color: black !important;
+}
+
+.no-underline {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 body {
   a {
     font-family: Montserrat;
