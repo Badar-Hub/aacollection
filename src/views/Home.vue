@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row max-width-center q-my-sm ">
+    <div class="row max-width-center q-mb-sm ">
       <img
         class="category-header-image"
         src="@/assets/images/Category/01.jpg"

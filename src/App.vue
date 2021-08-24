@@ -5,11 +5,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import Header from "./components/layout/Header.vue";
-import Footer from "./components/layout/Footer.vue";
+import { defineComponent } from 'vue';
+import Header from './components/layout/Header.vue';
+import Footer from './components/layout/Footer.vue';
 export default defineComponent({
-  name: "Home",
+  name: 'Home',
   components: {
     Header,
     Footer,
@@ -18,6 +18,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.cl-white {
+  color: white !important;
+}
 body {
   a {
     font-family: Montserrat;

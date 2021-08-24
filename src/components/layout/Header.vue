@@ -1,30 +1,52 @@
 <template>
-  <div class="header-main">
-    <header>
-      <div class="row justify-between">
-        <div class="logo q-my-auto">
-          <router-link to="/">AA COLLECTION</router-link>
+  <div>
+    <div class="row header-top q-pa-sm">
+      <div class="col-xs-12 col-sm-6 q-my-auto">
+        <div class="row full-width">
+          <img class="custom-flag" src="@/assets/images/flag.jpeg" />
+          <p class="q-my-auto q-px-sm cl-white">AA COLLECTION Oy</p>
         </div>
-        <nav class="q-my-auto">
-          <ul>
-            <a href="#home">Henkilötiedot</a>
-            <a href="#about">Työkokemus</a>
-            <a href="#skills">Osaamiskansio</a>
-            <a href="#contact">Sijainti</a>
-          </ul>
-        </nav>
       </div>
-    </header>
+      <div class="col-xs-12 col-sm-6 text-right q-my-auto">
+        <p class="q-my-xs q-px-sm cl-white">
+          Call us now: <strong>+358 41 3157488</strong>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="header-main">
+      <header>
+        <div class="row justify-between">
+          <div class="logo q-my-auto">
+            <router-link to="/">AA COLLECTION</router-link>
+          </div>
+          <nav class="q-my-auto">
+            <ul>
+              <a href="#home">Henkilötiedot</a>
+              <a href="#about">Työkokemus</a>
+              <a href="#skills">Osaamiskansio</a>
+              <a href="#contact">Sijainti</a>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div> -->
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
 export default defineComponent({});
 </script>
 
 <style lang="scss">
+.header-top {
+  background-color: #414141;
+  .custom-flag {
+    width: 23px;
+    height: 23px;
+  }
+}
 .header-main {
   background-color: #ea9a55;
 }
