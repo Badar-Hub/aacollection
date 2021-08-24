@@ -52,7 +52,9 @@
         >
           <strong><p>OSOITE</p></strong>
           <p>
-            Kaikukatu 82 as 2, 70600, kuopio, Finland
+            AA-COLLECTION Oy<br />
+            Haapaniemenkatu 28, 3.krs<br />
+            70110 Kuopio, Finland
           </p>
           <strong><p>PUH</p></strong>
           <p>
@@ -60,7 +62,11 @@
           </p>
           <strong><p>SÄHKÖPOSTI</p></strong>
           <p>
-            afshan1790@gmail.com
+            aacollection.fi@gmail.com
+          </p>
+          <strong><p>Instagram</p></strong>
+          <p>
+            aacollection.fi
           </p>
         </div>
       </div>
@@ -79,20 +85,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref } from 'vue';
 export default defineComponent({
   setup() {
-    const text = ref("");
+    const text = ref('');
     return {
-      text
+      text,
     };
-  }
+  },
 });
 </script>
 
 <style lang="scss">
 .background-image {
-  background-image: url("../../assets/images/Footer/staticmap.png");
+  background-image: url('../../assets/images/Footer/staticmap.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
