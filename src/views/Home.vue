@@ -11,22 +11,20 @@
         <div class="row full-width">
           <img
             class="custom-image "
-            src="@/assets/images/profile.png"
+            src="@/assets/images/profile2.jpeg"
             alt="profile-pic"
           />
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 q-my-auto">
         <h6 class="q-ma-sm">
-          Hei! Olen Afshan mittatilausompelija Niiralassa. Haluan palvella teitä
-          oman kylän väkeä. Voit tilata minulta yksilöllisiä
-          mittatilausvaatteita ja kodin sisustusompelua. Teen myös makrame
-          solmeilutuotteita, aina sisustuselementeistä koruihin.
-          Hemmotteluhetkiin ja juhlien koruksi voit tilata minulta
-          luonnonmukaisen hennatatuoinnin. Mikäli elämäsi on kiireistä tai
-          voimasi ovat vähissä voin myös siivota kotisi. Otathan yhteyttä, niin
-          sovitaan tarkemmin! Kotitoimistoni osoite on Kaikukatu 82 a 2, ja
-          yritykseni osoite Puh:
+          Olen kuopiolainen ompelualan yrittäjä ja ompelen unelmiesi vaatteen
+          ammattitaidolla ja laadukkaasti. Minulla on vahva kokemus alalta ja
+          päivitän taitojani jatkuvasti. Kun kaipaat kotiisi uutta
+          sisustuselementtiä voin valmistaa sen sinulle makrame-solmeilulla.
+          Samalla tekniikalla voin tehdä myös asuusi sopivat korut ja laukun.
+          Juhlan ja arjen hemmottelun mausteeksi voit tilata minulta
+          luonnonmukaisen henna-tatuoinnin.
         </h6>
       </div>
     </div>
