@@ -1,9 +1,9 @@
 <template>
-  <div class="row">
+  <div class="row max-width-center justify-center">
     <div
       v-for="(image, index) in filteredImages"
       :key="index"
-      class="col-xs-12 col-sm-4"
+      class="col-xs-12 col-sm-4 q-my-md"
     >
       <img
         class="custom-images-image"
