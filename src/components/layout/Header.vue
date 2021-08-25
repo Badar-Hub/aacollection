@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header-fixed">
     <div class="row header-top q-pa-sm">
       <div class="col-xs-12 col-sm-6 q-my-auto">
         <div class="row full-width">
@@ -43,6 +43,10 @@ export default defineComponent({});
 </script>
 
 <style lang="scss">
+.header-fixed {
+  position: fixed;
+  width: 100%;
+}
 .header-top {
   background-color: #414141;
   .custom-flag {

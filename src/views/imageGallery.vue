@@ -11,10 +11,14 @@
       />
     </div>
     <div class="col-xs-12">
-      <div class="row justify-center full-width">
-        <router-link class="no-underline" to="/">
-          <h3 class="q-my-sm cl-black">Kotisivu</h3>
-        </router-link>
+      <div class="row justify-center full-width q-my-lg">
+        <q-btn
+          class="text-bold"
+          size="18px"
+          to="/"
+          label="Kotisivu"
+          color="secondary"
+        />
       </div>
     </div>
   </div>
