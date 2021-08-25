@@ -86,8 +86,8 @@ export default defineComponent({
   color: black;
 }
 .custom-image {
-  border-radius: 10%;
-  max-height: 400px;
+  border-radius: 50%;
+  max-height: 300px;
   width: auto;
   margin: auto;
 }

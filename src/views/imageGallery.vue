@@ -49,6 +49,7 @@ export default defineComponent({
 <style>
 .custom-images-image {
   max-width: 300px;
+  border-radius: 4%;
   width: 100%;
 }
 </style>
