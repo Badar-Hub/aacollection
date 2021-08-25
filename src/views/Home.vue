@@ -10,7 +10,7 @@
       <div class="col-xs-12 col-sm-6 q-my-auto">
         <div class="row full-width">
           <img
-            class="custom-image "
+            class="custom-image"
             src="@/assets/images/profile2.jpeg"
             alt="profile-pic"
           />
@@ -86,11 +86,13 @@ export default defineComponent({
   color: black;
 }
 .custom-image {
+  border-radius: 10%;
   max-height: 400px;
   width: auto;
   margin: auto;
 }
 .custom-image-edited {
+  border-radius: 7%;
   max-width: 500px;
   width: 100%;
 }

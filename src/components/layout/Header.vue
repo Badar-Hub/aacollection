@@ -9,11 +9,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 q-my-auto">
         <div class="row full-width justify-end">
-          <img
-            style="background-color: white"
-            class="custom-flag"
-            src="@/assets/images/phone.png"
-          />
+          <img class="custom-flag" src="@/assets/images/phone.png" />
           <p class="q-my-auto q-px-sm cl-white">
             <strong>+358 41 3157488</strong>
           </p>
