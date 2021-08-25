@@ -7,14 +7,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 export default defineComponent({
   props: {
     work: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 });
 </script>
 
@@ -23,7 +23,7 @@ export default defineComponent({
   max-width: 1200px;
   margin: auto;
   border: 0;
-  border-radius: 0.1875rem;
+  border-radius: 2%;
   position: relative;
   overflow: hidden;
   width: 100%;
