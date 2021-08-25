@@ -7,10 +7,17 @@
           <p class="q-my-auto q-px-sm cl-white">AA COLLECTION Oy</p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 text-right q-my-auto">
-        <p class="q-my-xs q-px-sm cl-white">
-          Call us now: <strong>+358 41 3157488</strong>
-        </p>
+      <div class="col-xs-12 col-sm-6 q-my-auto">
+        <div class="row full-width justify-end">
+          <img
+            style="background-color: white"
+            class="custom-flag"
+            src="@/assets/images/phone.png"
+          />
+          <p class="q-my-auto q-px-sm cl-white">
+            <strong>+358 41 3157488</strong>
+          </p>
+        </div>
       </div>
     </div>
     <!-- <div class="header-main">
