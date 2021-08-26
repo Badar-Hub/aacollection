@@ -1,11 +1,35 @@
 <template>
-  <Header />
-  <router-view />
-  <Footer id="contact" />
+  <q-layout view="hHh lpR fFf">
+    <Header @button-clicked="leftDrawerOpen = !leftDrawerOpen" />
+
+    <q-drawer v-model="leftDrawerOpen" side="left" behavior="mobile" bordered>
+      <div class="row menu-mobile q-mt-md">
+        <h6 class="q-my-sm">AA COLLECTION Oy</h6>
+      </div>
+      <hr class="full-width" />
+      <div class="row menu-mobile q-mt-md">
+        <router-link to="/gallery/dresses">
+          <h6 class="q-my-sm">Mittatilausompelu</h6>
+        </router-link>
+        <router-link to="/gallery/makrama">
+          <h6 class="q-my-sm">Makramesolmeulu ja - Kurssit</h6>
+        </router-link>
+        <router-link to="/gallery/mandi">
+          <h6 class="q-my-sm">Hennatatuointi</h6>
+        </router-link>
+      </div>
+    </q-drawer>
+
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+
+    <Footer id="contact" />
+  </q-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { ref, defineComponent } from 'vue';
 import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
 export default defineComponent({
@@ -13,6 +37,12 @@ export default defineComponent({
   components: {
     Header,
     Footer,
+  },
+  setup() {
+    const leftDrawerOpen = ref(false);
+    return {
+      leftDrawerOpen,
+    };
   },
 });
 </script>
@@ -74,6 +104,9 @@ body {
   background-position: unset !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
+  @media (max-width: 750px) {
+    background-size: contain !important;
+  }
 }
 
 #slide {
@@ -95,4 +128,16 @@ body {
   }
 }
 $color: #ea9a55;
+
+.menu-mobile {
+  margin-left: 40px;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
 </style>

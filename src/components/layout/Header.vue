@@ -1,6 +1,6 @@
 <template>
-  <div class="header-fixed">
-    <div class="row header-top q-pa-sm">
+  <div>
+    <div class="row header-top q-pa-sm header-fixed">
       <div class="col-xs-6 q-my-auto">
         <div class="row full-width">
           <img class="custom-flag" src="@/assets/images/flag.jpeg" />
@@ -26,23 +26,33 @@
         </div>
       </div>
     </div>
-    <!-- <div class="header-main">
+    <div class="header-main">
       <header>
-        <div class="row justify-between">
-          <div class="logo q-my-auto">
-            <router-link to="/">AA COLLECTION</router-link>
+        <div class="row center-mobile-responsive-menu">
+          <div class="q-my-auto">
+            <div class="logo q-my-auto">
+              <router-link to="/">AA COLLECTION</router-link>
+            </div>
           </div>
-          <nav class="q-my-auto">
-            <ul>
-              <a href="#home">Henkilötiedot</a>
-              <a href="#about">Työkokemus</a>
-              <a href="#skills">Osaamiskansio</a>
-              <a href="#contact">Sijainti</a>
-            </ul>
-          </nav>
+          <div v-if="currentWidth >= 550">
+            <div class="row full-width">
+              <router-link to="/gallery/dresses">
+                <h6 class="q-my-sm">Mittatilausompelu</h6>
+              </router-link>
+              <router-link to="/gallery/makrama">
+                <h6 class="q-my-sm">Makramesolmeulu ja - Kurssit</h6>
+              </router-link>
+              <router-link to="/gallery/mandi">
+                <h6 class="q-my-sm">Hennatatuointi</h6>
+              </router-link>
+            </div>
+          </div>
+          <div v-else class="col-xs-6 text-right mobile-menu-icon q-my-sm">
+            <q-btn icon="menu" @click="$emit('button-clicked')" />
+          </div>
         </div>
       </header>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -50,6 +60,8 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
+  emits: ['button-clicked'],
+
   setup() {
     const currentWidth = window.innerWidth;
 
@@ -61,6 +73,17 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.mobile-menu-icon {
+  i {
+    color: white;
+  }
+}
+.center-mobile-responsive-menu {
+  justify-content: space-between;
+  @media (max-width: 950px) {
+    justify-content: center;
+  }
+}
 .header-fixed {
   position: fixed;
   width: 100%;
@@ -74,6 +97,7 @@ export default defineComponent({
 }
 .header-main {
   background-color: #ea9a55;
+  padding-top: 39px;
 }
 nav {
   @media (max-width: 550px) {
@@ -90,15 +114,12 @@ nav {
   a {
     font-size: 25px;
   }
-  @media (max-width: 597px) {
-    margin: auto;
-  }
 }
 header {
   display: flex;
   flex-direction: row;
   margin: auto;
-  max-width: 1200px;
+  // max-width: 1200px;
   width: 100%;
   padding: 5px;
   background-color: #ea9a55;
@@ -109,7 +130,7 @@ header {
     padding-right: 20px;
     font-size: 18px;
     text-decoration: none;
-    color: black;
+    color: white;
     @media (max-width: 570px) {
       padding-right: 10px;
       font-size: 16px;

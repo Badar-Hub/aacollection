@@ -51,23 +51,31 @@
         "
         >
           <strong><p>OSOITE</p></strong>
-          <p>
+          <a
+            href="https://maps.google.com/maps?q=62.892967224121094%2C27.676183700561523&z=17&hl=en"
+            class="cursor-pointer cl-black no-underline"
+          >
             AA-COLLECTION Oy<br />
             Haapaniemenkatu 28, 3.krs<br />
             70110 Kuopio, Finland
-          </p>
-          <strong><p>PUH</p></strong>
-          <p>
-            +358 41 3157488
-          </p>
-          <strong><p>SÄHKÖPOSTI</p></strong>
-          <p>
-            aacollection.fi@gmail.com
-          </p>
-          <strong><p>Instagram</p></strong>
-          <p>
+          </a>
+          <strong><p class="q-mt-md">PUH</p></strong>
+          <a class="no-underline cl-black" href="tel:+358-41-315-7488"
+            >+358 41 3157488</a
+          >
+          <strong><p class="q-mt-md">SÄHKÖPOSTI</p></strong>
+          <a
+            class="no-underline cl-black"
+            href="mailto:aacollection.fi@gmail.com"
+            >aacollection.fi@gmail.com</a
+          >
+          <strong><p class="q-mt-md">Instagram</p></strong>
+          <a
+            class="cl-black no-underline"
+            href="https://www.instagram.com/aacollection.fi/"
+          >
             aacollection.fi
-          </p>
+          </a>
         </div>
       </div>
       <br />

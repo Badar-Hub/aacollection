@@ -1,14 +1,21 @@
 <template>
   <div class="home-page">
-    <div class="row max-width-center q-mb-sm ">
-      <img
-        class="category-header-image"
-        src="@/assets/images/Category/01.jpg"
+    <Slider>
+      <q-carousel-slide
+        :name="1"
+        :style="
+          `background-image: url(${require(`@/assets/images/Header/header2.jpg`)})`
+        "
       />
+    </Slider>
+    <div class="row justify-center q-my-xl">
+      <div style="width: 300px" class="header-box text-center cl-white">
+        <h5 class="info-semi-bold q-my-sm">Tietoa yrityksestä</h5>
+      </div>
     </div>
     <div class="row max-width-center">
       <div class="col-xs-12 col-sm-6 q-my-auto">
-        <div class="row full-width">
+        <div class="row full-width justify-center">
           <img
             class="custom-image"
             src="@/assets/images/profile2.jpeg"
@@ -28,7 +35,18 @@
         </h6>
       </div>
     </div>
-    <div class="row max-width-center">
+    <div class="row max-width-center q-mb-sm q-mt-lg ">
+      <img
+        class="category-header-image"
+        src="@/assets/images/Category/01.jpg"
+      />
+    </div>
+    <div class="row justify-center q-mt-xl">
+      <div class="header-box text-center cl-white">
+        <h5 class="info-semi-bold q-my-sm">Tuotteet</h5>
+      </div>
+    </div>
+    <div class="row max-width-center q-mt-xl">
       <div class="col-xs-12 col-sm-4 q-px-md q-pt-md">
         <router-link to="/gallery/dresses">
           <img
@@ -54,7 +72,11 @@
         </router-link>
       </div>
     </div>
-    <h5 class="text-center info-semi-bold">Suositus</h5>
+    <div class="row justify-center q-mt-xl">
+      <div class="header-box text-center cl-white">
+        <h5 class="info-semi-bold q-my-sm">Suositus</h5>
+      </div>
+    </div>
     <InfoContainer>
       <div class="col-2"></div>
       <div class="col-8 text-center">
@@ -66,33 +88,48 @@
       </div>
       <div class="col-2"></div>
     </InfoContainer>
+    <div class="row justify-center q-my-xl">
+      <div class="header-box text-center cl-white">
+        <h5 class="info-semi-bold q-my-sm">Yhteystiedot</h5>
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import Slider from '../components/general/Slider.vue';
 import InfoContainer from '../components/general/InfoContainer.vue';
 
 export default defineComponent({
   components: {
     InfoContainer,
+    Slider,
   },
 });
 </script>
 
 <style scopped>
+.header-box {
+  background-color: #e99a54;
+  width: 200px;
+  height: 50px;
+}
 .home-page {
-  padding-top: 39px;
+  padding-top: 0px;
 }
 .text-border-cl {
   background-color: aqua;
   color: black;
 }
 .custom-image {
-  border-radius: 50%;
-  max-height: 230px;
-  width: auto;
-  margin: auto;
+  max-width: 141px;
+  border-radius: 60%;
+  width: 190px;
+  height: 190px;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 5px #ccc;
+  border-radius: 190px;
 }
 .custom-image-edited {
   border-radius: 7%;
