@@ -17,12 +17,14 @@
       <div class="col-xs-6 q-my-auto">
         <div class="row full-width justify-end">
           <img class="custom-flag" src="@/assets/images/phone.png" />
-          <p
-            :style="currentWidth <= 500 ?? 'font-size: 14px'"
-            class="q-my-auto q-px-sm cl-white"
-          >
-            <strong>+358 41 3157488</strong>
-          </p>
+          <strong>
+            <a
+              :style="currentWidth <= 500 ?? 'font-size: 14px'"
+              class="cursor-pointer q-my-auto q-px-sm cl-white no-underline"
+              href="tel:+358-41-315-7488"
+              >+358 41 3157488</a
+            >
+          </strong>
         </div>
       </div>
     </div>

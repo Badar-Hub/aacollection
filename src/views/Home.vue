@@ -43,7 +43,7 @@
     </div>
     <div class="row justify-center q-mt-xl">
       <div class="header-box text-center cl-white">
-        <h5 class="info-semi-bold q-my-sm">Tuotteet</h5>
+        <h5 class="info-semi-bold q-my-sm">Tuotteet Ja Palvelut</h5>
       </div>
     </div>
     <div class="row max-width-center q-mt-xl">
