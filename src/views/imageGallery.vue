@@ -17,7 +17,7 @@
           size="18px"
           to="/"
           label="Kotisivu"
-          style="background-color: '#414141'; color: white;"
+          style="background-color: #414141; color: white;"
         />
       </div>
     </div>
