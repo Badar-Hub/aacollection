@@ -76,6 +76,13 @@
           >
             aacollection.fi
           </a>
+          <strong><p class="q-mt-md">Facebook</p></strong>
+          <a
+            class="cl-black no-underline"
+            href="https://www.facebook.com/3aacollection/"
+          >
+            AA Collection
+          </a>
         </div>
       </div>
       <br />
