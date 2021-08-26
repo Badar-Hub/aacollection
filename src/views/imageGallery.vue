@@ -1,9 +1,9 @@
 <template>
-  <div class="row max-width-center justify-center">
+  <div class="row max-width-center gallery-page justify-center">
     <div
       v-for="(image, index) in filteredImages"
       :key="index"
-      class="col-xs-12 col-sm-4 q-my-md"
+      class="col-xs-12 col-sm-4 q-my-md text-center"
     >
       <img
         class="custom-images-image"
@@ -17,7 +17,7 @@
           size="18px"
           to="/"
           label="Kotisivu"
-          color="secondary"
+          style="background-color: '#414141'; color: white;"
         />
       </div>
     </div>
@@ -47,9 +47,12 @@ export default defineComponent({
 </script>
 
 <style>
+.gallery-page {
+  padding-top: 39px;
+}
 .custom-images-image {
   max-width: 300px;
-  border-radius: 4%;
+  border-radius: 1%;
   width: 100%;
 }
 </style>

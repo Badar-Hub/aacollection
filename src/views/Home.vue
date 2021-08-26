@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-page">
     <div class="row max-width-center q-mb-sm ">
       <img
         class="category-header-image"
@@ -81,13 +81,16 @@ export default defineComponent({
 </script>
 
 <style scopped>
+.home-page {
+  padding-top: 39px;
+}
 .text-border-cl {
   background-color: aqua;
   color: black;
 }
 .custom-image {
   border-radius: 50%;
-  max-height: 300px;
+  max-height: 230px;
   width: auto;
   margin: auto;
 }
