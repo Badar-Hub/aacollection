@@ -81,9 +81,9 @@
       <div class="col-2"></div>
       <div class="col-8 text-center">
         <h5>
-          ”Voin lämpimästi suositella AA Collecsonia, mikäli tarvitset kaunista,
-          linjakasta ja uudenlaista vaatetusta itsellesi. Työnjälki on
-          ainutlaatuista ja toimitus nopeaa” Artenomi Leena Valtonen ””
+          ”Voin lämpimästi suositella AA Collectionia, mikäli tarvitset
+          kaunista, linjakasta ja uudenlaista vaatetusta itsellesi. Työnjälki on
+          ainutlaatuista ja toimitus nopeaa” Leena Valtonen ””
         </h5>
       </div>
       <div class="col-2"></div>
